@@ -420,7 +420,9 @@ contribute to the autoconfigured [resource](../sdk/#resource).
 
 | Class                                                                  | Artifact                                                                                            | Description                                                     |
 | ---------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| `io.opentelemetry.instrumentation.resources.ContainerResourceProvider` | `io.opentelemetry.instrumentation:opentelemetry-resources:{{% param vers.instrumentation %}}-alpha` | Provides container resource attributes.                         |
+| `io.opentelemetry.instrumentation.resources.ContainerResourceProvider` | `io.opentelemetry.instrumentation:opentelemetry-resources:{{% param vers.instrumentation %}}-alpha` | Provides container resource attributes.   
+| `io.opentelemetry.instrumentation.resources.EnvironmentResourceProvider` | `io.opentelemetry.instrumentation:opentelemetry-resources:{{% param vers.instrumentation %}}-alpha` | Provides support for environment variable based resource attributes.                         |
+|
 | `io.opentelemetry.instrumentation.resources.HostResourceProvider`      | `io.opentelemetry.instrumentation:opentelemetry-resources:{{% param vers.instrumentation %}}-alpha` | Provides host resource attributes.                              |
 | `io.opentelemetry.instrumentation.resources.HostIdResourceProvider`    | `io.opentelemetry.instrumentation:opentelemetry-resources:{{% param vers.instrumentation %}}-alpha` | Provides host ID resource attribute.                            |
 | `io.opentelemetry.instrumentation.resources.ManifestResourceProvider`  | `io.opentelemetry.instrumentation:opentelemetry-resources:{{% param vers.instrumentation %}}-alpha` | Provides service resource attributes based on jar manifest.     |
